@@ -1,0 +1,774 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow sticky-top" >
+      <div class="container h-100 d-flex align-items-center justify-content-center">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/irina-biswas-crispy-logo.jpg" class="logo-navbar">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reservation">reservation</a>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-brand">Order Online</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Slider -->
+
+    <div id="hero" class="carousel slide">
+      <div class="carousel-inner">
+
+        <div class="carousel-item text-center slide-1 vh-100  active">
+          <div class="container h-100 d-flex align-items-center justify-content-center">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h6 class="text-white">WELCOME TO QRISPY</h6>
+                <h1 class="display-1 fw-bold text-white">Char-Grilled and Flavor-Filled</h1>
+                <a href="#" class="btn btn-brand">Reservation</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item text-center slide-2 vh-100">
+          <div class="container h-100 d-flex align-items-center justify-content-center">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h6 class="text-white">WELCOME TO QRISPY</h6>
+                <h1 class="display-1 fw-bold text-white">Fresh and Tasty Food</h1>
+                <a href="#" class="btn btn-brand">Reservation</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#hero" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#hero" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container gy-4">
+        <div class="row gy-4 align-items-center justify-content-between">
+          <div class="col-lg-5 ">
+            <img src="assets/images/about.jpg" class="logo-about" alt="">              
+            </div>
+            <div class="col-lg-5 ">
+              <h1>About us</h1>
+              <div class="divider my-4"></div>
+              <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries</p>
+              <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia d</p>
+              <a href="#" class="btn btn-brand">Explore Menu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro-text">
+            <h1>Explore our Menu </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu Tabs -->
+      <div class="container">
+        <ul class="nav nav-pills mb-4 justify-content-center" id="pills-tab" role="tablist">
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">All Items</button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link " id="pills-breakfast-tab" data-bs-toggle="pill" data-bs-target="#pills-breakfast" type="button" role="tab" aria-controls="pills-breakfast" aria-selected="true">Breakfast</button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link " id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch" type="button" role="tab" aria-controls="pills-lunch" aria-selected="true">Lunch</button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link " id="pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#pills-dinner" type="button" role="tab" aria-controls="pills-dinner" aria-selected="true">Dinner</button>
+          </li>
+
+          
+
+        </ul>
+
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active " id="pills-all" role="tabpannel" aria-labelledby="pills-all-tab" tabindex="0">
+
+            <div class="row gy-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="assets/images/m1.jpg" class="m" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>                     
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-2 mb-2"><a href="#">Pizza</a></h5>
+                    <p class="small">Excepteur sint occaecat cupidatat non proident, su</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="assets/images/m10.jpg" class="m" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>                     
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(5.4)</span>
+                    </div>
+                    <h5 class="mt-2 mb-2"><a href="#">Cake</a></h5>
+                    <p class="small">Excepteur sint occaecat cupidatat non proident, su</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="assets/images/m9.jpg" class="m" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>                     
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-2 mb-2"><a href="#">PRETZEL </a></h5>
+                    <p class="small">Excepteur sint occaecat cupidatat non proident, su</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="assets/images/m4.jpg" class="m" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>                     
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(5.4)</span>
+                    </div>
+                    <h5 class="mt-2 mb-2"><a href="#">French Fries</a></h5>
+                    <p class="small">Excepteur sint occaecat cupidatat non proident, su</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="assets/images/m5.jpg" class="m" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>                     
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(5.4)</span>
+                    </div>
+                    <h5 class="mt-2 mb-2"><a href="#">Subway</a></h5>
+                    <p class="small">Excepteur sint occaecat cupidatat non proident, su</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="assets/images/m6.jpg" class="m" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>                     
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(5.4)</span>
+                    </div>
+                    <h5 class="mt-2 mb-2"><a href="#">StarBucks</a></h5>
+                    <p class="small">Excepteur sint occaecat cupidatat non proident, su</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="assets/images/m7.jpg" class="m" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>                     
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(5.4)</span>
+                    </div>
+                    <h5 class="mt-2 mb-2"><a href="#">KFC</a></h5>
+                    <p class="small">Excepteur sint occaecat cupidatat non proident, su</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="assets/images/m8.jpg" class="m" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>                     
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(5.4)</span>
+                    </div>
+                    <h5 class="mt-2 mb-2"><a href="#">Drinks</a></h5>
+                    <p class="small">Excepteur sint occaecat cupidatat non proident, su</p>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+
+          <div class="tab-pane fade show " id="pills-breakfast" role="tabpannel" aria-labelledby="pills-breakfast-tab" tabindex="0">
+            <div class="row gy-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="assets/images/m5.jpg" class="m" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>                     
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(4.0)</span>
+                    </div>
+                    <h5 class="mt-2 mb-2"><a href="#">Subway</a></h5>
+                    <p class="small">Excepteur sint occaecat cupidatat non proident, su</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="assets/images/m6.jpg" class="m" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>                     
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(5.4)</span>
+                    </div>
+                    <h5 class="mt-2 mb-2"><a href="#">StarBucks</a></h5>
+                    <p class="small">Excepteur sint occaecat cupidatat non proident, su</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="assets/images/m7.jpg" class="m" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>                     
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(5.4)</span>
+                    </div>
+                    <h5 class="mt-2 mb-2"><a href="#">KFC</a></h5>
+                    <p class="small">Excepteur sint occaecat cupidatat non proident, su</p>
+                  </div>
+                </div>
+              </div>
+              
+              
+            </div>
+          </div>
+
+          <div class="tab-pane fade show " id="pills-lunch" role="tabpannel" aria-labelledby="pills-lunch-tab" tabindex="0">
+            <div class="row gy-4">
+
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="assets/images/m9.jpg" class="m" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>                     
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-2 mb-2"><a href="#">PRETZEL </a></h5>
+                    <p class="small">Excepteur sint occaecat cupidatat non proident, su</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="assets/images/m4.jpg" class="m" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>                     
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(5.4)</span>
+                    </div>
+                    <h5 class="mt-2 mb-2"><a href="#">French Fries</a></h5>
+                    <p class="small">Excepteur sint occaecat cupidatat non proident, su</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="assets/images/m5.jpg" class="m" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>                     
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(5.4)</span>
+                    </div>
+                    <h5 class="mt-2 mb-2"><a href="#">Subway</a></h5>
+                    <p class="small">Excepteur sint occaecat cupidatat non proident, su</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="assets/images/m8.jpg" class="m" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>                     
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(5.4)</span>
+                    </div>
+                    <h5 class="mt-2 mb-2"><a href="#">Drinks</a></h5>
+                    <p class="small">Excepteur sint occaecat cupidatat non proident, su</p>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="tab-pane fade show " id="pills-dinner" role="tabpannel" aria-labelledby="pills-dinner-tab" tabindex="0">
+            <div class="row gy-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="assets/images/m1.jpg" class="m" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>                     
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-2 mb-2"><a href="#">Pizza</a></h5>
+                    <p class="small">Excepteur sint occaecat cupidatat non proident, su</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="assets/images/m10.jpg" class="m" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>                     
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(5.4)</span>
+                    </div>
+                    <h5 class="mt-2 mb-2"><a href="#">Cake</a></h5>
+                    <p class="small">Excepteur sint occaecat cupidatat non proident, su</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="assets/images/m9.jpg" class="m" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>                     
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-2 mb-2"><a href="#">PRETZEL </a></h5>
+                    <p class="small">Excepteur sint occaecat cupidatat non proident, su</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="assets/images/m8.jpg" class="m" alt="">
+                  <div class="menu-item-content p-4">
+                    <div>                     
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(5.4)</span>
+                    </div>
+                    <h5 class="mt-2 mb-2"><a href="#">Drinks</a></h5>
+                    <p class="small">Excepteur sint occaecat cupidatat non proident, su</p>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+      </div>
+      </div>
+
+
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="bg-cover">
+      <div class="container ">
+        <div class="row gy-4">
+          <div class="col-12 intro-text">
+            <h1 class="text-white">Why Choose Us? </h1>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          </div>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-3 col-sm-6">
+            <div class="feature p-4 text-center">
+              <div class="feature-icon">
+                <i class="ri-wifi-fill"></i>
+              </div>
+              <h4 class="text-white mt-4 mb-2 ">Free wifi</h4>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="feature p-4 text-center">
+              <div class="feature-icon">
+                <i class="ri-user-2-fill"></i>
+              </div>
+              <h4 class="text-white mt-4 mb-2 ">Friendly Staffs</h4>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+            
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="feature p-4 text-center">
+              <div class="feature-icon">
+                <i class="ri-timer-2-fill"></i>
+              </div>
+              <h4 class="text-white mt-4 mb-2 ">Fast Delivery</h4>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+            
+
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="feature p-4 text-center">
+              <div class="feature-icon">
+                <i class="ri-shield-star-fill"></i>
+              </div>
+              <h4 class="text-white mt-4 mb-2 ">Highly Rated</h4>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+            
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="bg-cover" id="reviews">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro-text">
+            <h1 class="text-white">Our Clients Saying!!</h1>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          </div>
+        </div>
+        <div id="reviewslider" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#reviewslider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#reviewslider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            
+          </div>
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="review bg-white p-5 text-center">
+                   <div class="quote-icon"><i class="ri-double-quotes-l"></i></div> 
+                   <p class="mb-0">This cozy restaurant has left the best impressions! Hospitable hosts, delicious dishes, beautiful presentation, wide wine list and wonderful dessert. I recommend to everyone! I would like to come back here again and again.
+                  </p>
+                  <div class="person mt-4">
+                    <img src="assets/images/r1.jpg">
+                    <h4 class="mb-0 mt-2">Aadesh Pro</h4>
+                    <div>                     
+                      <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      </span>
+                      <span>(4.5)</span>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="review bg-white p-5 text-center">
+                   <div class="quote-icon"><i class="ri-double-quotes-l"></i></div> 
+                   <p  class="mb-0">This cozy restaurant has left the best impressions! Hospitable hosts, delicious dishes, beautiful presentation, wide wine list and wonderful dessert. I recommend to everyone! I would like to come back here again and again.
+                  </p>
+                  <div class="person mt-4">
+                    <img  src="assets/images/r2.jpg">
+                    <h4 class="mb-0 mt-2">Abiilesh Noob</h4>
+                    <div>                     
+                      <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      </span>
+                      <span>(5.0)</span>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#reviewslider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#reviewslider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reservation -->
+    <section id="reservation">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro-text">
+            <h1>Book Your Table</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          </div>
+        </div>
+        <form action="#" class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="row g-3">
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" placeholder="Full Name">
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" placeholder="Email address">
+              </div>
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" placeholder="Date">
+              </div>
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" placeholder="Time">
+              </div>
+              <div class="form-group col-md-12">
+                <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group text-center col-md-12">
+                <a href="#reservation" class="btn btn-brand">Send Message</a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-cover">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4  ">
+              <a class="navbar-brand " href="#">
+                <img src="assets/images/irina-biswas-crispy-logo.jpg" class="logo-navbar mb-4">
+              </a>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="social-links">
+                <a href=""><i class="ri-facebook-circle-fill"></i></a>
+                <a href=""><i class="ri-instagram-fill"></i></i></a>
+                <a href=""><i class="ri-google-fill"></i></i></a>
+              </div>             
+            </div>
+
+            <div class="col-lg-3 ms-auto ">
+              <h3 class="text-white mb-4">Navigations</h3>
+              <h4><a href="#" class="text-white h4 mb-2">Home</a></h4>
+              <h4><a href="#about" class="text-white mb-2">About</a></h4>
+              <h4><a href="#menu" class="text-white h4 mb-2">Menu</a></h4>
+              <h4><a href="#features" class="text-white h4 mb-2">Features</a></h4>
+              <h4><a href="#reservatoin" class="text-white h4">Reservation</a></h4>
+              
+            </div>
+
+            <div class="col-lg-3 ms-auto">
+              <h3 class="text-white mb-4">Contacts</h3>
+              <p class="mb-2">+ 91 9790124534</p>
+              <p class="mb-2">Email:Abiaadesh29@gmila.omc</p>
+              <p class="mb-0">pidatat non proident, sunt in culpa qui officia deserun</p>
+            </div>
+
+            <div class="col-lg-3">
+              <h3 class="text-white mb-4">Opening Hours</h3>
+              <p class="mb-2">45634c</p>
+              <p class="mb-0">deserun</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-auto">
+              <p class="mb-0">Copyrights Restaurant © 2023.  all rights reserved</p>
+            </div>
+            <div class="col-auto">
+              <p class="mb-0">Designed By <a href='#'>Aadesh</a></p> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
