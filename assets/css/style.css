@@ -190,7 +190,7 @@ footer img{
 }
 
 #features{
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(assets/images/features.jpg);
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/features.jpg);
 }
 
 .feature{
@@ -212,7 +212,7 @@ footer img{
 
 /* Reviews */
 #reviews{
-  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(assets/images/client\ saying.jpg);
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/client\ saying.jpg);
 }
 .review img{
   width:75px;
